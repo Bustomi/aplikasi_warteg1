@@ -5,10 +5,10 @@
     <dimen name="margin_menu_main">4dp</dimen>
     <dimen name="height_menu_subMain">0dp</dimen>
     <dimen name="width_menu_card">0dp</dimen>
-    <dimen name="margin_menu_card">2dp</dimen>
+    <dimen name="margin_menu_card">1dp</dimen>
     <dimen name="height_menu_image">15dp</dimen>
     <dimen name="menu_image_padding">20dp</dimen>
-    <dimen name="height_menu_textMenu">0dp</dimen>
+    <dimen name="height_menu_textMenu">20dp</dimen>
     <dimen name="textSize_menu_main">14sp</dimen>
     <dimen name="margin_activity">8dp</dimen>
     <dimen name="textSize_namaMenu">20sp</dimen>

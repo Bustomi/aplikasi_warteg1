@@ -6,5 +6,8 @@
     <string name="call">Call</string>
     <string name="judul_daftar_menu">Daftar Menu:</string>
     <string name="terimakasih">Terimakasih atas pesanannya, </string>
+    <string name="nama_warteg_gaspol">Nama : WARTEG GASPOL</string>
+    <string name="pemilik_engko_ucen">Pemilik : engko ucen</string>
+    <string name="alamat_desa_merkarjati_rt_01_rw_04_kab_bandung">Alamat : Desa merkarjati rt 01 rw 04 kab Bandung</string>
 
 </resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".perusahaan">
+
+   <ImageView
+       android:id="@+id/gambar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/slide1"/>
+    <TextView
+        android:id="@+id/nama"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/nama_warteg_gaspol"/>
+    <TextView
+        android:id="@+id/pemilik"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/pemilik_engko_ucen"/>
+    <TextView
+        android:id="@+id/alamat"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/alamat_desa_merkarjati_rt_01_rw_04_kab_bandung"/>
+
+</LinearLayout>

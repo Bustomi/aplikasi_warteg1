@@ -6,6 +6,9 @@ import android.os.Handler;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 import com.viewpagerindicator.CirclePageIndicator;
 
@@ -33,6 +36,30 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
     }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_menu:
+                listMenu();
+                return true;
+            case R.id.action_call:
+                callRumahMakan();
+                return true;
+            case R.id.action_map:
+                lokasiMenu();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 
     private void initSlider() {
         for(int i=0;i<IMAGES.length;i++)
@@ -106,6 +133,11 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.cv_list_menu)
     public void listMenu(){
         Intent intent = new Intent(getApplicationContext(), ListMenuActivity.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.cv_busines)
+    public void alamat(){
+        Intent intent = new Intent(getApplicationContext(),perusahaan.class);
         startActivity(intent);
     }
 }
